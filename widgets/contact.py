@@ -8,8 +8,8 @@ class Ui_Form(QtWidgets.QWidget):
         self.logOutButton = self.style().standardIcon(QtWidgets.QStyle.SP_DialogCloseButton)
         self.helpButton = self.style().standardIcon(QtWidgets.QStyle.SP_DialogHelpButton)
         self.statusButton = self.style().standardIcon(QtWidgets.QStyle.SP_DirHomeIcon)
-        self.image = QtGui.QPixmap("resource/1.png")
-        self.setStyleSheet("background-color:qlineargradient(spread:pad, x1:0, y1:0, x2:1, y2:0, stop:0.247368 rgba(255, 255, 255, 255), stop:0.557895 rgba(255, 255, 255, 255))")
+        self.image = QtGui.QPixmap("resource/qr.png")
+        #self.setStyleSheet("background-color:qlineargradient(spread:pad, x1:0, y1:0, x2:1, y2:0, stop:0.247368 rgba(255, 255, 255, 255), stop:0.557895 rgba(255, 255, 255, 255))")
         self.setupUi()
 
     def setupUi(self):
@@ -34,7 +34,7 @@ class Ui_Form(QtWidgets.QWidget):
         self.pushButton = QtWidgets.QPushButton(self.close_frame)
         self.pushButton.setObjectName("pushButton")
         self.pushButton.setIcon(self.logOutButton)
-        self.verticalLayout_2.addWidget(self.pushButton)
+        self.verticalLayout_2.addWidget(self.pushButton,0, QtCore.Qt.AlignHCenter)
         self.label = QtWidgets.QLabel(self.close_frame)
         self.label.setObjectName("label")
         self.verticalLayout_2.addWidget(self.label, 0, QtCore.Qt.AlignHCenter)
@@ -64,7 +64,7 @@ class Ui_Form(QtWidgets.QWidget):
         self.pushButton_2 = QtWidgets.QPushButton(self.frame)
         self.pushButton_2.setObjectName("pushButton_2")
         self.pushButton_2.setIcon(self.helpButton)
-        self.verticalLayout_3.addWidget(self.pushButton_2)
+        self.verticalLayout_3.addWidget(self.pushButton_2,0, QtCore.Qt.AlignHCenter)
         self.label_2 = QtWidgets.QLabel(self.frame)
         self.label_2.setObjectName("label_2")
         self.verticalLayout_3.addWidget(self.label_2, 0, QtCore.Qt.AlignHCenter)
