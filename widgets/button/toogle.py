@@ -5,8 +5,8 @@ from PyQt5.QtWidgets import *
 
 
 class PyToggle(QCheckBox):
-    def __init__(self, width=60, bg_color="#777", circle_color="#DDD", active_color="#00BCff"):
-        QCheckBox.__init__(self)
+    def __init__(self,Parent, width=60, bg_color="#777", circle_color="#DDD", active_color="#00BCff"):
+        QCheckBox.__init__(self,parent=Parent)
         self.setFixedSize(width, 28)
         self.setCursor(QtCore.Qt.CursorShape.PointingHandCursor)
         self.bg_color = bg_color
