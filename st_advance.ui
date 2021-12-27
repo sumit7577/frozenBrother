@@ -7,7 +7,7 @@
     <x>0</x>
     <y>0</y>
     <width>965</width>
-    <height>665</height>
+    <height>691</height>
    </rect>
   </property>
   <property name="windowTitle">
@@ -51,7 +51,7 @@
               </property>
               <layout class="QHBoxLayout" name="horizontalLayout_3">
                <item alignment="Qt::AlignHCenter">
-                <widget class="QLabel" name="label">
+                <widget class="QLabel" name="st_advanceFrame1_label1">
                  <property name="text">
                   <string>Date &amp; Time</string>
                  </property>
@@ -70,14 +70,14 @@
               </property>
               <layout class="QHBoxLayout" name="horizontalLayout_4">
                <item>
-                <widget class="QLabel" name="label_2">
+                <widget class="QLabel" name="st_advanceFrame1_label2">
                  <property name="text">
                   <string>Time Zone: </string>
                  </property>
                 </widget>
                </item>
                <item>
-                <widget class="QComboBox" name="comboBox">
+                <widget class="QComboBox" name="st_advanceFrame1_combox">
                  <item>
                   <property name="text">
                    <string>GMT- UTC+0.0</string>
@@ -101,6 +101,15 @@
               <property name="frameShadow">
                <enum>QFrame::Raised</enum>
               </property>
+              <layout class="QHBoxLayout" name="horizontalLayout_24">
+               <item>
+                <widget class="QLabel" name="st_advanceFrame1_label3">
+                 <property name="text">
+                  <string>TextLabel</string>
+                 </property>
+                </widget>
+               </item>
+              </layout>
              </widget>
             </item>
             <item>
@@ -113,7 +122,7 @@
               </property>
               <layout class="QHBoxLayout" name="horizontalLayout_5">
                <item alignment="Qt::AlignRight">
-                <widget class="QPushButton" name="pushButton">
+                <widget class="QPushButton" name="st_advanceFrame1_button1">
                  <property name="text">
                   <string>Synchronise Time</string>
                  </property>
@@ -135,7 +144,7 @@
            </property>
            <layout class="QVBoxLayout" name="verticalLayout_3">
             <item>
-             <widget class="QFrame" name="frame">
+             <widget class="QFrame" name="st_advanceFrame1footer_frame1">
               <property name="frameShape">
                <enum>QFrame::StyledPanel</enum>
               </property>
@@ -144,7 +153,7 @@
               </property>
               <layout class="QHBoxLayout" name="horizontalLayout_6">
                <item alignment="Qt::AlignHCenter">
-                <widget class="QLabel" name="label_3">
+                <widget class="QLabel" name="st_advanceFotter_label1">
                  <property name="text">
                   <string>Scheduling </string>
                  </property>
@@ -154,13 +163,377 @@
              </widget>
             </item>
             <item>
-             <widget class="QFrame" name="frame_2">
+             <widget class="QFrame" name="st_advanceFotter_frame2">
+              <property name="minimumSize">
+               <size>
+                <width>0</width>
+                <height>320</height>
+               </size>
+              </property>
               <property name="frameShape">
                <enum>QFrame::StyledPanel</enum>
               </property>
               <property name="frameShadow">
                <enum>QFrame::Raised</enum>
               </property>
+              <layout class="QVBoxLayout" name="verticalLayout_16">
+               <item>
+                <widget class="QFrame" name="st_advanceFrame_scheduleFrame1">
+                 <property name="frameShape">
+                  <enum>QFrame::StyledPanel</enum>
+                 </property>
+                 <property name="frameShadow">
+                  <enum>QFrame::Raised</enum>
+                 </property>
+                 <layout class="QHBoxLayout" name="horizontalLayout_15">
+                  <item>
+                   <widget class="QFrame" name="frame_31">
+                    <property name="frameShape">
+                     <enum>QFrame::StyledPanel</enum>
+                    </property>
+                    <property name="frameShadow">
+                     <enum>QFrame::Raised</enum>
+                    </property>
+                   </widget>
+                  </item>
+                  <item>
+                   <widget class="QLabel" name="st_advanceFooter_label2">
+                    <property name="text">
+                     <string>Wake</string>
+                    </property>
+                   </widget>
+                  </item>
+                  <item>
+                   <widget class="QLabel" name="st_advanceFooter_label3">
+                    <property name="text">
+                     <string>Sleep</string>
+                    </property>
+                   </widget>
+                  </item>
+                 </layout>
+                </widget>
+               </item>
+               <item>
+                <widget class="QFrame" name="st_advanceFrame_scheduleFrame2">
+                 <property name="frameShape">
+                  <enum>QFrame::StyledPanel</enum>
+                 </property>
+                 <property name="frameShadow">
+                  <enum>QFrame::Raised</enum>
+                 </property>
+                 <layout class="QHBoxLayout" name="horizontalLayout_16">
+                  <item>
+                   <widget class="QCheckBox" name="st_advanceFooter_checkbox1">
+                    <property name="text">
+                     <string/>
+                    </property>
+                   </widget>
+                  </item>
+                  <item>
+                   <widget class="QLabel" name="st_advanceFooter_label4">
+                    <property name="text">
+                     <string>Every Day</string>
+                    </property>
+                   </widget>
+                  </item>
+                  <item>
+                   <widget class="QLabel" name="st_advanceFooter_label5">
+                    <property name="text">
+                     <string>00:00</string>
+                    </property>
+                   </widget>
+                  </item>
+                  <item>
+                   <widget class="QLabel" name="st_advanceFooter_label6">
+                    <property name="text">
+                     <string>00:00</string>
+                    </property>
+                   </widget>
+                  </item>
+                 </layout>
+                </widget>
+               </item>
+               <item>
+                <widget class="QFrame" name="st_advanceFrame_scheduleFrame3">
+                 <property name="frameShape">
+                  <enum>QFrame::StyledPanel</enum>
+                 </property>
+                 <property name="frameShadow">
+                  <enum>QFrame::Raised</enum>
+                 </property>
+                 <layout class="QHBoxLayout" name="horizontalLayout_17">
+                  <item>
+                   <widget class="QCheckBox" name="st_advanceFooter_checkbox2">
+                    <property name="text">
+                     <string/>
+                    </property>
+                   </widget>
+                  </item>
+                  <item>
+                   <widget class="QLabel" name="st_advanceFooter_label7">
+                    <property name="text">
+                     <string>Sunday</string>
+                    </property>
+                   </widget>
+                  </item>
+                  <item>
+                   <widget class="QLabel" name="st_advanceFooter_label8">
+                    <property name="text">
+                     <string>00:00</string>
+                    </property>
+                   </widget>
+                  </item>
+                  <item>
+                   <widget class="QLabel" name="st_advanceFooter_label9">
+                    <property name="text">
+                     <string>00:00</string>
+                    </property>
+                   </widget>
+                  </item>
+                 </layout>
+                </widget>
+               </item>
+               <item>
+                <widget class="QFrame" name="st_advanceFrame_scheduleFrame4">
+                 <property name="frameShape">
+                  <enum>QFrame::StyledPanel</enum>
+                 </property>
+                 <property name="frameShadow">
+                  <enum>QFrame::Raised</enum>
+                 </property>
+                 <layout class="QHBoxLayout" name="horizontalLayout_18">
+                  <item>
+                   <widget class="QCheckBox" name="st_advanceFooter_checkbox3">
+                    <property name="text">
+                     <string/>
+                    </property>
+                   </widget>
+                  </item>
+                  <item>
+                   <widget class="QLabel" name="st_advanceFooter_label10">
+                    <property name="text">
+                     <string>Monday</string>
+                    </property>
+                   </widget>
+                  </item>
+                  <item>
+                   <widget class="QLabel" name="st_advanceFooter_label11">
+                    <property name="text">
+                     <string>00:00</string>
+                    </property>
+                   </widget>
+                  </item>
+                  <item>
+                   <widget class="QLabel" name="st_advanceFooter_label12">
+                    <property name="text">
+                     <string>00:00</string>
+                    </property>
+                   </widget>
+                  </item>
+                 </layout>
+                </widget>
+               </item>
+               <item>
+                <widget class="QFrame" name="st_advanceFrame_scheduleFrame5">
+                 <property name="frameShape">
+                  <enum>QFrame::StyledPanel</enum>
+                 </property>
+                 <property name="frameShadow">
+                  <enum>QFrame::Raised</enum>
+                 </property>
+                 <layout class="QHBoxLayout" name="horizontalLayout_19">
+                  <item>
+                   <widget class="QCheckBox" name="st_advanceFooter_checkbox4">
+                    <property name="text">
+                     <string/>
+                    </property>
+                   </widget>
+                  </item>
+                  <item>
+                   <widget class="QLabel" name="st_advanceFooter_label13">
+                    <property name="text">
+                     <string>Tuesday</string>
+                    </property>
+                   </widget>
+                  </item>
+                  <item>
+                   <widget class="QLabel" name="st_advanceFooter_label14">
+                    <property name="text">
+                     <string>00:00</string>
+                    </property>
+                   </widget>
+                  </item>
+                  <item>
+                   <widget class="QLabel" name="st_advanceFooter_label15">
+                    <property name="text">
+                     <string>00:00</string>
+                    </property>
+                   </widget>
+                  </item>
+                 </layout>
+                </widget>
+               </item>
+               <item>
+                <widget class="QFrame" name="st_advanceFrame_scheduleFrame6">
+                 <property name="frameShape">
+                  <enum>QFrame::StyledPanel</enum>
+                 </property>
+                 <property name="frameShadow">
+                  <enum>QFrame::Raised</enum>
+                 </property>
+                 <layout class="QHBoxLayout" name="horizontalLayout_20">
+                  <item>
+                   <widget class="QCheckBox" name="st_advanceFooter_checkbox5">
+                    <property name="text">
+                     <string/>
+                    </property>
+                   </widget>
+                  </item>
+                  <item>
+                   <widget class="QLabel" name="st_advanceFooter_label16">
+                    <property name="text">
+                     <string>Wednesday</string>
+                    </property>
+                   </widget>
+                  </item>
+                  <item>
+                   <widget class="QLabel" name="st_advanceFooter_label17">
+                    <property name="text">
+                     <string>00:00</string>
+                    </property>
+                   </widget>
+                  </item>
+                  <item>
+                   <widget class="QLabel" name="st_advanceFooter_label18">
+                    <property name="text">
+                     <string>00:00</string>
+                    </property>
+                   </widget>
+                  </item>
+                 </layout>
+                </widget>
+               </item>
+               <item>
+                <widget class="QFrame" name="st_advanceFrame_scheduleFrame7">
+                 <property name="frameShape">
+                  <enum>QFrame::StyledPanel</enum>
+                 </property>
+                 <property name="frameShadow">
+                  <enum>QFrame::Raised</enum>
+                 </property>
+                 <layout class="QHBoxLayout" name="horizontalLayout_21">
+                  <item>
+                   <widget class="QCheckBox" name="st_advanceFooter_checkbox6">
+                    <property name="text">
+                     <string/>
+                    </property>
+                   </widget>
+                  </item>
+                  <item>
+                   <widget class="QLabel" name="st_advanceFooter_label19">
+                    <property name="text">
+                     <string>Thursday</string>
+                    </property>
+                   </widget>
+                  </item>
+                  <item>
+                   <widget class="QLabel" name="st_advanceFooter_label20">
+                    <property name="text">
+                     <string>00:00</string>
+                    </property>
+                   </widget>
+                  </item>
+                  <item>
+                   <widget class="QLabel" name="st_advanceFooter_label21">
+                    <property name="text">
+                     <string>00:00</string>
+                    </property>
+                   </widget>
+                  </item>
+                 </layout>
+                </widget>
+               </item>
+               <item>
+                <widget class="QFrame" name="st_advanceFrame_scheduleFrame8">
+                 <property name="frameShape">
+                  <enum>QFrame::StyledPanel</enum>
+                 </property>
+                 <property name="frameShadow">
+                  <enum>QFrame::Raised</enum>
+                 </property>
+                 <layout class="QHBoxLayout" name="horizontalLayout_22">
+                  <item>
+                   <widget class="QCheckBox" name="st_advanceFooter_checkbox7">
+                    <property name="text">
+                     <string/>
+                    </property>
+                   </widget>
+                  </item>
+                  <item>
+                   <widget class="QLabel" name="st_advanceFooter_label22">
+                    <property name="text">
+                     <string>Friday</string>
+                    </property>
+                   </widget>
+                  </item>
+                  <item>
+                   <widget class="QLabel" name="st_advanceFooter_label23">
+                    <property name="text">
+                     <string>00:00</string>
+                    </property>
+                   </widget>
+                  </item>
+                  <item>
+                   <widget class="QLabel" name="st_advanceFooter_label24">
+                    <property name="text">
+                     <string>00:00</string>
+                    </property>
+                   </widget>
+                  </item>
+                 </layout>
+                </widget>
+               </item>
+               <item>
+                <widget class="QFrame" name="st_advanceFrame_scheduleFrame9">
+                 <property name="frameShape">
+                  <enum>QFrame::StyledPanel</enum>
+                 </property>
+                 <property name="frameShadow">
+                  <enum>QFrame::Raised</enum>
+                 </property>
+                 <layout class="QHBoxLayout" name="horizontalLayout_23">
+                  <item>
+                   <widget class="QCheckBox" name="st_advanceFooter_checkbox8">
+                    <property name="text">
+                     <string/>
+                    </property>
+                   </widget>
+                  </item>
+                  <item>
+                   <widget class="QLabel" name="st_advanceFooter_label25">
+                    <property name="text">
+                     <string>Saturday</string>
+                    </property>
+                   </widget>
+                  </item>
+                  <item>
+                   <widget class="QLabel" name="st_advanceFooter_label26">
+                    <property name="text">
+                     <string>00:00</string>
+                    </property>
+                   </widget>
+                  </item>
+                  <item>
+                   <widget class="QLabel" name="st_advanceFooter_label27">
+                    <property name="text">
+                     <string>00:00</string>
+                    </property>
+                   </widget>
+                  </item>
+                 </layout>
+                </widget>
+               </item>
+              </layout>
              </widget>
             </item>
            </layout>
@@ -179,7 +552,7 @@
         </property>
         <layout class="QVBoxLayout" name="verticalLayout_4">
          <item>
-          <widget class="QFrame" name="frame_3">
+          <widget class="QFrame" name="stadvanceFrame2_headerFrame">
            <property name="frameShape">
             <enum>QFrame::StyledPanel</enum>
            </property>
@@ -188,7 +561,7 @@
            </property>
            <layout class="QVBoxLayout" name="verticalLayout_6">
             <item alignment="Qt::AlignHCenter">
-             <widget class="QFrame" name="frame_9">
+             <widget class="QFrame" name="stAdvanceFrame2header_frame1">
               <property name="frameShape">
                <enum>QFrame::StyledPanel</enum>
               </property>
@@ -197,7 +570,7 @@
               </property>
               <layout class="QHBoxLayout" name="horizontalLayout_7">
                <item>
-                <widget class="QLabel" name="label_4">
+                <widget class="QLabel" name="stAdvanceFrame2header_label1">
                  <property name="text">
                   <string>Machine Settings</string>
                  </property>
@@ -207,7 +580,7 @@
              </widget>
             </item>
             <item>
-             <widget class="QFrame" name="frame_10">
+             <widget class="QFrame" name="stAdvanceFrame2header_frame2">
               <property name="frameShape">
                <enum>QFrame::StyledPanel</enum>
               </property>
@@ -216,7 +589,7 @@
               </property>
               <layout class="QHBoxLayout" name="horizontalLayout_8">
                <item alignment="Qt::AlignLeft">
-                <widget class="QLabel" name="label_5">
+                <widget class="QLabel" name="stAdvanceFrame2header_label2">
                  <property name="text">
                   <string>Left</string>
                  </property>
@@ -226,7 +599,7 @@
              </widget>
             </item>
             <item>
-             <widget class="QFrame" name="frame_11">
+             <widget class="QFrame" name="stAdvanceFrame2header_frame3">
               <property name="frameShape">
                <enum>QFrame::StyledPanel</enum>
               </property>
@@ -235,14 +608,14 @@
               </property>
               <layout class="QHBoxLayout" name="horizontalLayout_10">
                <item>
-                <widget class="QLabel" name="label_7">
+                <widget class="QLabel" name="stAdvanceFrame2header_label3">
                  <property name="text">
                   <string>Barrel Status:</string>
                  </property>
                 </widget>
                </item>
                <item>
-                <widget class="QCheckBox" name="checkBox">
+                <widget class="QCheckBox" name="stAdvanceFrame2header_checkbox1">
                  <property name="text">
                   <string>CheckBox</string>
                  </property>
@@ -252,7 +625,7 @@
              </widget>
             </item>
             <item>
-             <widget class="QFrame" name="frame_12">
+             <widget class="QFrame" name="stAdvanceFrame2header_frame4">
               <property name="frameShape">
                <enum>QFrame::StyledPanel</enum>
               </property>
@@ -261,14 +634,14 @@
               </property>
               <layout class="QHBoxLayout" name="horizontalLayout_9">
                <item>
-                <widget class="QLabel" name="label_6">
+                <widget class="QLabel" name="stAdvanceFrame2header_label4">
                  <property name="text">
                   <string>LED Colour:</string>
                  </property>
                 </widget>
                </item>
                <item>
-                <widget class="QComboBox" name="comboBox_2">
+                <widget class="QComboBox" name="stAdvanceFrame2header_combox1">
                  <item>
                   <property name="text">
                    <string>Blue</string>
@@ -303,7 +676,7 @@
           </widget>
          </item>
          <item>
-          <widget class="QFrame" name="frame_4">
+          <widget class="QFrame" name="stadvanceFrame2_bodyFrame">
            <property name="frameShape">
             <enum>QFrame::StyledPanel</enum>
            </property>
@@ -321,7 +694,7 @@
               </property>
               <layout class="QHBoxLayout" name="horizontalLayout_11">
                <item>
-                <widget class="QLabel" name="label_8">
+                <widget class="QLabel" name="stAdvanceFrame2body_label1">
                  <property name="text">
                   <string>Right</string>
                  </property>
@@ -331,7 +704,7 @@
              </widget>
             </item>
             <item>
-             <widget class="QFrame" name="frame_14">
+             <widget class="QFrame" name="stAdvanceFrame2body_frame1">
               <property name="frameShape">
                <enum>QFrame::StyledPanel</enum>
               </property>
@@ -340,14 +713,14 @@
               </property>
               <layout class="QHBoxLayout" name="horizontalLayout_12">
                <item>
-                <widget class="QLabel" name="label_9">
+                <widget class="QLabel" name="stAdvanceFrame2body_label2">
                  <property name="text">
                   <string>Barrel Status: </string>
                  </property>
                 </widget>
                </item>
                <item>
-                <widget class="QCheckBox" name="checkBox_2">
+                <widget class="QCheckBox" name="stAdvanceFrame2body_toggle1">
                  <property name="text">
                   <string>CheckBox</string>
                  </property>
@@ -357,7 +730,7 @@
              </widget>
             </item>
             <item>
-             <widget class="QFrame" name="frame_15">
+             <widget class="QFrame" name="stAdvanceFrame2body_frame2">
               <property name="frameShape">
                <enum>QFrame::StyledPanel</enum>
               </property>
@@ -366,14 +739,14 @@
               </property>
               <layout class="QHBoxLayout" name="horizontalLayout_13">
                <item>
-                <widget class="QLabel" name="label_10">
+                <widget class="QLabel" name="stAdvanceFrame2body_label3">
                  <property name="text">
                   <string>LED Colour:</string>
                  </property>
                 </widget>
                </item>
                <item>
-                <widget class="QComboBox" name="comboBox_3">
+                <widget class="QComboBox" name="stAdvanceFrame2body_combobox1">
                  <item>
                   <property name="text">
                    <string>Off</string>
@@ -408,7 +781,7 @@
           </widget>
          </item>
          <item>
-          <widget class="QFrame" name="frame_5">
+          <widget class="QFrame" name="stadvanceFrame2_footerFrame">
            <property name="frameShape">
             <enum>QFrame::StyledPanel</enum>
            </property>
@@ -416,8 +789,8 @@
             <enum>QFrame::Raised</enum>
            </property>
            <layout class="QVBoxLayout" name="verticalLayout_8">
-            <item>
-             <widget class="QFrame" name="frame_16">
+            <item alignment="Qt::AlignTop">
+             <widget class="QFrame" name="stAdvanceFrame2fotter_frame1">
               <property name="frameShape">
                <enum>QFrame::StyledPanel</enum>
               </property>
@@ -426,7 +799,7 @@
               </property>
               <layout class="QVBoxLayout" name="verticalLayout_9">
                <item>
-                <widget class="QLabel" name="label_11">
+                <widget class="QLabel" name="stAdvanceFrame2footer_label1">
                  <property name="text">
                   <string>Freeze Settings</string>
                  </property>
@@ -436,14 +809,20 @@
              </widget>
             </item>
             <item>
-             <widget class="QFrame" name="frame_17">
+             <widget class="QFrame" name="stAdvanceFrame2fotter_frame2">
+              <property name="minimumSize">
+               <size>
+                <width>0</width>
+                <height>103</height>
+               </size>
+              </property>
               <property name="frameShape">
                <enum>QFrame::StyledPanel</enum>
               </property>
               <property name="frameShadow">
                <enum>QFrame::Raised</enum>
               </property>
-              <widget class="QSlider" name="horizontalSlider">
+              <widget class="QSlider" name="stAdvanceFrame2body_slider1">
                <property name="geometry">
                 <rect>
                  <x>50</x>
@@ -456,7 +835,7 @@
                 <enum>Qt::Horizontal</enum>
                </property>
               </widget>
-              <widget class="QLabel" name="label_12">
+              <widget class="QLabel" name="stAdvanceFrame2body_label2_2">
                <property name="geometry">
                 <rect>
                  <x>0</x>
@@ -470,7 +849,7 @@
 Liquid</string>
                </property>
               </widget>
-              <widget class="QLabel" name="label_13">
+              <widget class="QLabel" name="stAdvanceFrame2footer_label3">
                <property name="geometry">
                 <rect>
                  <x>200</x>
@@ -484,7 +863,7 @@ Liquid</string>
 Frozen</string>
                </property>
               </widget>
-              <widget class="QLabel" name="label_14">
+              <widget class="QLabel" name="stAdvanceFrame2footer_label4">
                <property name="geometry">
                 <rect>
                  <x>104</x>
@@ -515,7 +894,7 @@ Frozen</string>
         </property>
         <layout class="QVBoxLayout" name="verticalLayout_5">
          <item>
-          <widget class="QFrame" name="frame_6">
+          <widget class="QFrame" name="stadvanceFrame3_headerFrame">
            <property name="frameShape">
             <enum>QFrame::StyledPanel</enum>
            </property>
@@ -524,7 +903,7 @@ Frozen</string>
            </property>
            <layout class="QVBoxLayout" name="verticalLayout_10">
             <item alignment="Qt::AlignHCenter|Qt::AlignTop">
-             <widget class="QFrame" name="frame_18">
+             <widget class="QFrame" name="stAdvanceFrame3header_frame1">
               <property name="frameShape">
                <enum>QFrame::StyledPanel</enum>
               </property>
@@ -533,7 +912,7 @@ Frozen</string>
               </property>
               <layout class="QHBoxLayout" name="horizontalLayout_14">
                <item alignment="Qt::AlignHCenter">
-                <widget class="QLabel" name="label_15">
+                <widget class="QLabel" name="stAdvanceFrame3header_label1">
                  <property name="text">
                   <string>Config Management</string>
                  </property>
@@ -543,7 +922,7 @@ Frozen</string>
              </widget>
             </item>
             <item>
-             <widget class="QFrame" name="frame_19">
+             <widget class="QFrame" name="stAdvanceframe3header_frame2">
               <property name="maximumSize">
                <size>
                 <width>16777215</width>
@@ -558,21 +937,21 @@ Frozen</string>
               </property>
               <layout class="QVBoxLayout" name="verticalLayout_11">
                <item>
-                <widget class="QLabel" name="label_16">
+                <widget class="QLabel" name="stAdvanceFrame3header_label2">
                  <property name="text">
                   <string>View Current</string>
                  </property>
                 </widget>
                </item>
                <item>
-                <widget class="QLabel" name="label_17">
+                <widget class="QLabel" name="stAdvanceFrame3header_label3">
                  <property name="text">
                   <string>Review current configuration settings</string>
                  </property>
                 </widget>
                </item>
                <item>
-                <widget class="QPushButton" name="pushButton_2">
+                <widget class="QPushButton" name="stAdvanceFrame3header_button1">
                  <property name="text">
                   <string>View Current Configuration</string>
                  </property>
@@ -585,7 +964,7 @@ Frozen</string>
           </widget>
          </item>
          <item>
-          <widget class="QFrame" name="frame_7">
+          <widget class="QFrame" name="stadvanceFrame3_bodyFrame">
            <property name="frameShape">
             <enum>QFrame::StyledPanel</enum>
            </property>
@@ -594,7 +973,7 @@ Frozen</string>
            </property>
            <layout class="QVBoxLayout" name="verticalLayout_12">
             <item>
-             <widget class="QFrame" name="frame_20">
+             <widget class="QFrame" name="stAdvanceFrame3body_frame1">
               <property name="frameShape">
                <enum>QFrame::StyledPanel</enum>
               </property>
@@ -603,21 +982,21 @@ Frozen</string>
               </property>
               <layout class="QVBoxLayout" name="verticalLayout_13">
                <item>
-                <widget class="QLabel" name="label_18">
+                <widget class="QLabel" name="stAdvanceFrame3body_label1">
                  <property name="text">
                   <string>Backup</string>
                  </property>
                 </widget>
                </item>
                <item>
-                <widget class="QLabel" name="label_19">
+                <widget class="QLabel" name="stAdvanceFrame3body_label2">
                  <property name="text">
                   <string>Take a snapshot of the current version.</string>
                  </property>
                 </widget>
                </item>
                <item>
-                <widget class="QPushButton" name="pushButton_3">
+                <widget class="QPushButton" name="stAdvanceFrame3body_button1">
                  <property name="text">
                   <string>Save Current Configuration</string>
                  </property>
@@ -627,7 +1006,7 @@ Frozen</string>
              </widget>
             </item>
             <item>
-             <widget class="QFrame" name="frame_21">
+             <widget class="QFrame" name="stAdvanceFrame3body_frame2">
               <property name="frameShape">
                <enum>QFrame::StyledPanel</enum>
               </property>
@@ -636,14 +1015,14 @@ Frozen</string>
               </property>
               <layout class="QVBoxLayout" name="verticalLayout_14">
                <item>
-                <widget class="QLabel" name="label_20">
+                <widget class="QLabel" name="stAdvanceFrame3body_label3">
                  <property name="text">
                   <string>Restore</string>
                  </property>
                 </widget>
                </item>
                <item>
-                <widget class="QLabel" name="label_21">
+                <widget class="QLabel" name="stAdvanceFrame3body_label4">
                  <property name="text">
                   <string>Restore a previous version? This will 
 overwrite the current configuration with 
@@ -652,7 +1031,7 @@ the default configuration for this machine</string>
                 </widget>
                </item>
                <item>
-                <widget class="QComboBox" name="comboBox_4">
+                <widget class="QComboBox" name="stAdvanceFrame3body_combox1">
                  <item>
                   <property name="text">
                    <string>2 September 2021 - User</string>
@@ -672,7 +1051,7 @@ the default configuration for this machine</string>
           </widget>
          </item>
          <item>
-          <widget class="QFrame" name="frame_8">
+          <widget class="QFrame" name="stadvanceFrame3_footerFrame">
            <property name="frameShape">
             <enum>QFrame::StyledPanel</enum>
            </property>
@@ -681,14 +1060,14 @@ the default configuration for this machine</string>
            </property>
            <layout class="QVBoxLayout" name="verticalLayout_15">
             <item>
-             <widget class="QLabel" name="label_22">
+             <widget class="QLabel" name="stAdvanceFrame3footer_label1">
               <property name="text">
                <string>Factory Reset</string>
               </property>
              </widget>
             </item>
             <item>
-             <widget class="QLabel" name="label_23">
+             <widget class="QLabel" name="stAdvanceFrame3footer_label2">
               <property name="text">
                <string>This will overwrite the current configuration 
 with the default configuration for this 
@@ -697,14 +1076,14 @@ machine</string>
              </widget>
             </item>
             <item alignment="Qt::AlignHCenter">
-             <widget class="QLabel" name="label_24">
+             <widget class="QLabel" name="stAdvanceFrame3footer_label3">
               <property name="text">
                <string>IMage Label</string>
               </property>
              </widget>
             </item>
             <item>
-             <widget class="QPushButton" name="pushButton_4">
+             <widget class="QPushButton" name="stAdvanceFrame3footer_button1">
               <property name="text">
                <string>Reset to Default Configuration</string>
               </property>
