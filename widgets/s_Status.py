@@ -20,7 +20,7 @@ class Ui_st_status(QtWidgets.QWidget):
                 
     def setupUi(self):
         self.setObjectName("st_status")
-        self.resize(791, 692)
+        self.resize(400, 692)
         self.horizontalLayout = QtWidgets.QHBoxLayout(self)
         self.horizontalLayout.setObjectName("horizontalLayout")
         self.stStatus_mainFrame = QtWidgets.QFrame(self)
